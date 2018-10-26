@@ -75,4 +75,4 @@ write.csv(DataSet.1, "DataSet.1.csv");
 
 DataSet.2 <- na.omit(DataSet.1) ## Function for remove rows with missing values on columns in order to tyde the dataset 
 
-write.csv(DataSet.2,"DataSet.2.csv"); ## ¡Final Tyde Data!
+write.csv(DataSet.2,"DataSet.2.csv"); ## ¡Final Tidy Data!
