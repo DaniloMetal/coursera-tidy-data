@@ -15,7 +15,7 @@ perform an analysis on the data set, and output a tidy data set.
 1. Here are the data for the project to be Unzipped:
 [Access the link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-2. The dataset includes the following files:
+2. The dataset includes the following files:  
     **`features.txt`**
     **`subject_train.txt`**
     **`subject_test.txt`**
