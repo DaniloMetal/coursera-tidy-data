@@ -1,23 +1,23 @@
-### Code Book 
+## Code Book 
 
 This code book is to explain the steps used in the Assignment: Getting and Cleaning Data Course Project for Cousera
 
-### Descritión provided by Assignment
+## Descritión provided by Assignment
 
 "The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist."
 
-### Explanation of each file
+## Explanation of each file
 
 * `features.txt`: Names of the 561 features (records).
 * `activity_labels.txt`: Names and IDs for each of the 6 activities.
 
-## Train files
+### Train files
 * `X_train.txt`: 7352 records (observations) of the 561 features, for 21 of the 30 volunteers.
 * `y_train.txt`: File with 7352 integers,  representing the ID of the activity related to each of the observations in `X_train.txt`.
 * `subject_train.txt`: File with  of 7352 integers,  representing the ID of the volunteer related to each of the observations in `X_train.txt`.
 
-## Test Files
+### Test Files
 
 * `X_test.txt`: 2947 observations of the 561 features, for 9 of the 30 volunteers.
 * `y_test.txt`: File with 2947 rows (integers),  representing the ID of the activity related to each of the observations in `X_test.txt`.
