@@ -12,6 +12,13 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `features.txt`: Names of the features (records).
 * `activity_labels.txt`: Names and IDs for each of the 6 activities.
 
+1. WALKING  - walking performed on the test
+2. WALKING_UPSTAIRS - walking up a stairs performed on the test
+3. WALKING_DOWNSTAIRS - walking down a stairs performed on the test
+4. SITTING - sitting performed on the test
+5. STANDING - standing performed on the test
+6. LAYING - laying down performed on the test
+
 ### Train files
 * `X_train.txt`: Records (observations) of the features
 * `y_train.txt`: File representing the ID of the activity related to each of the observations in `X_train.txt`.
@@ -41,6 +48,9 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 * `volunteerID`	The ID of subject
 * `activity.labels` Is the action or activity performed by volunteer
+
+## Descriptions of Labels
+
 
 
 ## Sumarized Data
