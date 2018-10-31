@@ -26,4 +26,4 @@ perform an analysis on the data set, and output a tidy data set.
 
 3. Create a script called run_analysis.R to tidy the data
 
-**The final dataset is `DataSet.2.csv`
+**The final dataset is `Datastet.Tidy.csv`
