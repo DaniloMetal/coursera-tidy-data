@@ -20,13 +20,15 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 6. `LAYING` - laying down performed on the test
 
 ### Train files
-* `X_train.txt`: Records (observations) of the features
+
+
+* `X_train.txt`: Records (observations) of the features, contain the data measurement captured by instruments
 * `y_train.txt`: File representing the ID of the activity related to each of the observations in `X_train.txt`.
 * `subject_train.txt`: File representing the ID of the volunteer related to each of the observations in `X_train.txt`.
 
 ### Test Files
 
-* `X_test.txt`: Observations of the features, for 9 of the 30 volunteers.
+* `X_test.txt`: Observations of the features, contain the data measurement captured by instruments
 * `y_test.txt`: File representing the ID of the activity related to each of the observations in `X_test.txt`.
 * `subject_test.txt`: File representing the ID of the volunteer related to each of the observations in `X_test.txt`.
 
