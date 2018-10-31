@@ -49,8 +49,10 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `volunteerID`	The ID of subject
 * `activity.labels` Is the action or activity performed by volunteer
 
-
 ## Summarized Data
+
+### The features provided are Mean value and Standard deviation capturated instruments in the smartphone.
+
 * `tBodyAcc-mean()-X`
 * `tBodyAcc-mean()-Y`
 * `tBodyAcc-mean()-Z`
