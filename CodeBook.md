@@ -9,29 +9,31 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 ## Explanation of each file
 
-* `features.txt`: Names of the 561 features (records).
+* `features.txt`: Names of the features (records).
 * `activity_labels.txt`: Names and IDs for each of the 6 activities.
 
 ### Train files
-* `X_train.txt`: 7352 records (observations) of the 561 features, for 21 of the 30 volunteers.
-* `y_train.txt`: File with 7352 integers,  representing the ID of the activity related to each of the observations in `X_train.txt`.
-* `subject_train.txt`: File with  of 7352 integers,  representing the ID of the volunteer related to each of the observations in `X_train.txt`.
+* `X_train.txt`: Records (observations) of the features
+* `y_train.txt`: File representing the ID of the activity related to each of the observations in `X_train.txt`.
+* `subject_train.txt`: File representing the ID of the volunteer related to each of the observations in `X_train.txt`.
 
 ### Test Files
 
-* `X_test.txt`: 2947 observations of the 561 features, for 9 of the 30 volunteers.
-* `y_test.txt`: File with 2947 rows (integers),  representing the ID of the activity related to each of the observations in `X_test.txt`.
-* `subject_test.txt`: A vector of 2947 integers,  representing the ID of the volunteer related to each of the observations in `X_test.txt`.
+* `X_test.txt`: Observations of the features, for 9 of the 30 volunteers.
+* `y_test.txt`: File representing the ID of the activity related to each of the observations in `X_test.txt`.
+* `subject_test.txt`: File representing the ID of the volunteer related to each of the observations in `X_test.txt`.
 
-You can access the detailed information in the files given by coursera.
+
+### You can access the detailed information in the files given by coursera.
 * `README.txt` General description. 
 * `features_info.txt` Detailed information about the features.
 
 
-### Processing steps
+## Processing steps
 
-1. All of the relevant data files were read into data frames, appropriate column headers were added, and the training and test sets were combined into a single data set.
-2. All feature columns were removed that did not contain the exact string "mean()" or "std()". This left 66 feature columns, plus the subjectID and activity columns.
-3. The activity column was converted from a integer to a factor, using labels describing the activities.
-4. A tidy data set was created containing the mean of each feature for each subject and each activity. Thus, subject #1 has 6 rows in the tidy data set (one row for each activity), and each row contains the mean value for each of the 66 features for that subject/activity combination. Since there are 30 subjects, there are a total of 180 rows.
-5. The tidy data set was output to a CSV file.
+1. Read all dataset provided by experiment and name the fields
+2. Merge the appropriate datasets to create a unique dataset 
+3. Remove all unnecessary columns and keep "mean()" or "std()"
+4. Use the activity labels to identify the activities in the new dataset
+5. Normalizing and aggregator to tidy the data
+6. Write a CSV file containing the tidy Dataset
