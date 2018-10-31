@@ -49,9 +49,6 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `volunteerID`	The ID of subject
 * `activity.labels` Is the action or activity performed by volunteer
 
-## Descriptions of Labels
-
-
 
 ## Sumarized Data
 * `tBodyAcc-mean()-X`
