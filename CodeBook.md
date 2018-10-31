@@ -33,11 +33,6 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `subject_test.txt`: File representing the ID of the volunteer related to each of the observations in `X_test.txt`.
 
 
-### You can access the detailed information in the files given by coursera.
-* `README.txt` General description. 
-* `features_info.txt` Detailed information about the features.
-
-
 ## Processing steps
 
 1. Read all dataset provided by experiment and name the fields
@@ -51,9 +46,23 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `volunteerID`	The ID of subject
 * `activity.labels` Is the action or activity performed by volunteer
 
-## Summarized Data
+## Summarized Variables and detailed description
 
-### The features provided are Mean value and Standard deviation capturated instruments in the smartphone.
+The features provided are Mean value and Standard deviation capturated instruments in the smartphone.
+Each variable representing an instrument that give us the mean and standard deviation of the data collected.
+
+### You can access the detailed information in the files given by coursera.
+* _General description you can find in `README.txt`_ 
+* _The description below was provided on `features_info.txt` file:_
+
+
+Body **linear acceleration** and **angular velocity** were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ)
+
+Acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ)
+
+Magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag)
+
+## Following the detailed name of the variables:
 
 * `tBodyAcc-mean()-X`
 * `tBodyAcc-mean()-Y`
