@@ -37,6 +37,11 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 4. Use the activity labels to identify the activities in the new dataset
 5. Normalizing and aggregator to tidy the data
 6. Write a CSV file containing the tidy Dataset
+## Variables
+
+* `volunteerID`	The ID of subject
+* `activity.labels` Is the action or activity performed by volunteer
+
 
 ## Sumarized Data
 * `tBodyAcc-mean()-X`
