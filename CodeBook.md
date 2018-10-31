@@ -50,7 +50,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 * `activity.labels` Is the action or activity performed by volunteer
 
 
-## Sumarized Data
+## Summarized Data
 * `tBodyAcc-mean()-X`
 * `tBodyAcc-mean()-Y`
 * `tBodyAcc-mean()-Z`
